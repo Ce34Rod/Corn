@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
         Player player = new Player();
@@ -5,5 +7,8 @@ public class Main {
         System.out.println(firstSeed.getStatus(firstSeed));
         player.getInventory().add(firstSeed);
         System.out.println(player.toString());
+        LaunchPage launchPage = new LaunchPage();
+
+
     }
 }
